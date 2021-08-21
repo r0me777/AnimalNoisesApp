@@ -1,0 +1,59 @@
+AppLayout:
+
+<AppLayout>:
+    cols:2
+    rows:2
+    Label:
+
+        text: "Press the Animals!!"
+        size: self.texture_size
+
+    GridLayout:
+        cols: 1
+        Button:
+            id: Bee
+            background_normal: "bee.png"
+            on_release: root.play_music("BeeNoise.mp3")
+        Button:
+            id: Bird
+            background_normal: "bird.png"
+            on_release: root.play_music("BirdNoise.mp3")
+    #    Button:
+    #        background_normal: "cow.png"
+    #        on_release: root.play_music("BeeNoise.mp3")
+    #    Button:
+    #        background_normal: "dog.png"
+    #        on_release: root.play_music("BeeNoise.mp3")
+
+    GridLayout:
+        cols: 1
+        Button:
+            id: Elephant
+            background_normal: "elephant.png"
+            on_release: root.play_music("ElephantNoise.mp3")
+        Button:
+            id: Frog
+            background_normal: "frog.png"
+            on_release: root.play_music("FrogNoise.mp3")
+      #  Button:
+      #      background_normal: "horse.png"
+      #      on_release: root.play_music("BeeNoise.mp3")
+      #  Button:
+      #      background_normal: "koala.png"
+      #      on_release: root.play_music("BeeNoise.mp3")
+    GridLayout:
+        cols: 1
+        Button:
+            id: Lion
+            background_normal: "lion.png"
+            on_release: root.play_music("LionNoise.mp3")
+        Button:
+            id: Seal
+            background_normal: "walrus.png"
+            on_release: root.play_music("SealNoise.mp3")
+    #    Button:
+    #        background_normal: "bird.png"
+    #        on_release: root.play_music("BeeNoise.mp3")
+    #    Button:
+    #        background_normal: "bird.png"
+    #        on_release: root.play_music("BeeNoise.mp3")
